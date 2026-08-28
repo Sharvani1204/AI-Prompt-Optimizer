@@ -1,0 +1,23 @@
+# Task List - Prompt Analysis & Evaluation Implementation
+
+- [x] Setup Environment and Configurations
+  - [x] Add `requirements.txt`
+  - [x] Check / update `.gitignore`
+- [x] Implement Core Metrics Module
+  - [x] Implement `member1/metrics.py` with heuristics for the 7 prompt metrics
+- [x] Implement Prompt Analyzer Module
+  - [x] Implement `member1/prompt_analyzer.py` with validation and data structure
+- [x] Implement Weakness Detector Module
+  - [x] Implement `member1/weakness_detector.py` with configurable thresholds
+- [x] Implement Prompt Scorer Module
+  - [x] Implement `member1/prompt_scorer.py` with weighted model and grading scale
+- [x] Implement Response Evaluator Module
+  - [x] Implement `member1/response_evaluator.py` with embedding-based semantic similarity and placeholder hooks
+- [x] Implement Setup/Package Expose
+  - [x] Add `member1/__init__.py` exposing core functions
+- [x] Implement Verification and Demonstration
+  - [x] Write integration demo script `member1/integration_demo.py`
+  - [x] Create unit tests under `member1/tests/`
+- [x] Document the Module
+  - [x] Write `member1/README.md`
+- [x] Final Verification (Static inspection and validation; command line execution blocked by env permissions)
